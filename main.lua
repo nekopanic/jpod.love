@@ -22,7 +22,7 @@ tiles = {} -- stored two-dimensionally by row and then column
 
 function love.load()
 	love.graphics.setMode(1200, 600)
-	love.graphics.setFont(love.graphics.newFont(80))
+	love.graphics.setFont(love.graphics.newFont("Inconsolata.otf",80))
 end
 
 function love.draw()
